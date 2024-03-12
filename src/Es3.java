@@ -30,6 +30,7 @@ public class Es3 {
         cercaConNome(nomeDaCercare);
 
         rubricaAggiornata();
+        scanner.close();
     }
 
     private static void aggiungiContatto(String name, String phone) {
